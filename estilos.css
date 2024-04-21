@@ -1,0 +1,143 @@
+.cabeza {
+  background-color: grey;
+  width: 98%;
+  position: fixed;
+  top: 5px;
+}
+body {
+  padding-top: 55px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.cabeza__logo {
+  box-sizing: border-box;
+  border: 1px solid red;
+  width: 20%;
+  display: inline-block;
+}
+.cabeza__menu {
+  box-sizing: border-box;
+  border: 1px solid red;
+  margin-bottom: 15px;
+  width: 56%;
+  display: inline-block;
+}
+.cabeza__login {
+  box-sizing: border-box;
+  border: 1px solid red;
+  width: 20%;
+  display: inline-block;
+}
+.productos {
+  background-color: seagreen;
+
+  height: 100px;
+  padding: 10px;
+}
+.productos__item1 {
+  border: 1px solid yellow;
+  width: 20%;
+  height: 80px;
+  float: left;
+}
+.productos__item2 {
+  border: 1px solid yellow;
+  width: 20%;
+  height: 80px;
+  margin-left: 20px;
+  float: left;
+}
+.productos__item3 {
+  border: 1px solid yellow;
+  width: 20%;
+  height: 80px;
+  float: left;
+}
+.productos__item4 {
+  border: 1px solid yellow;
+  width: 20%;
+  height: 80px;
+  margin-right: 20px;
+  float: left;
+}
+h2 {
+  background-color: blueviolet;
+  border: 1px solid grey;
+  font-size: 17px;
+  border-radius: 40px;
+  width: 50px;
+  height: 20px;
+
+  position: sticky;
+  top: 40px;
+  left: 1000px;
+}
+.padreparrafos01 {
+  background-color: #00917c;
+  /* height: 60px; */
+}
+.parrafos0 {
+  background-color: hotpink;
+  border: 1px solid green;
+  width: 250px;
+  height: 50px;
+}
+.parrafos0--uno {
+  position: relative;
+  top: 100px;
+}
+.parrafos0--dos {
+  position: relative;
+  left: 252px;
+  bottom: 30px;
+}
+.parrafos0--tres {
+  position: relative;
+  left: 504px;
+  bottom: 20pxpx;
+}
+.parrafos0--cuatro {
+  position: relative;
+  left: 756px;
+  bottom: 0;
+}
+.padreparrafos02 {
+  background-color: rgb(120, 250, 100);
+
+  position: relative;
+  height: 200px;
+}
+.parrafos1 {
+  background-color: rgba(10, 29, 50, 30%);
+  border: 1px solid red;
+  width: 250px;
+  height: 50px;
+}
+.parrafos1--uno {
+  position: absolute;
+  top: 10px;
+}
+.parrafos1--dos {
+  position: absolute;
+  left: 250px;
+}
+.parrafos1--tres {
+  position: absolute;
+  bottom: 30px;
+}
+.parrafos1--cuatro {
+  position: absolute;
+  right: 150px;
+}
+.padreparrafos03 {
+  background-color: hsl(310, 40%, 40%);
+
+  position: relative;
+  height: 200px;
+}
+.padreparrafos04 {
+  background-color: hsla(120, 50%, 50%, 50%);
+
+  position: relative;
+  height: 200px;
+}
